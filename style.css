@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('image/img1.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    width: 850px;
+    height: 500px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    border-radius: 40px;
+    
+}
+
+.welcome-section {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right, rgb(3, 4, 94) 10%, rgb(0, 119, 182) 100%);
+    color: white;
+    padding: 50px 20px;
+    position: relative;
+    border-radius: 40px 0px 0px 40px;
+}
+
+.school-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 3px;
+    position: absolute;
+    top: 15px;
+    left: 20px; 
+}
+.school-logo {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.school-name {
+    font-size: 15px; 
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+
+}
+.welcome-text {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-top: 120px; 
+}
+
+.form-section {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 60px;
+    border-radius: 0px 40px 40px 0px ;
+}
+
+.form-section h2 {
+    font-size: 35px; 
+    font-weight:normal;
+    font-family: Impact;
+    text-align: center;
+    color: #130552;
+    margin-bottom: 50px;
+}
+
+#login-form, #register-form {
+    text-align: center;
+    width: 100%;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #949494;
+    border-radius: 5px;
+}
+button {
+    width: 40%;
+    padding: 10px;
+    margin: 20px;
+    background: #130552;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+button:hover {
+    background: #4311b8;
+}
+.error {
+    color: red;
+    font-size: 14px;
+}
+.switch {
+    margin-top: 10px;
+    cursor: pointer;
+    color: rgb(40, 157, 253);
+    font-size: 12px;
+}
